@@ -5,10 +5,10 @@ Gmail Notifier for Windows 7 monitors your Gmail inbox and notifies you of new e
 
 Here are some screenshots:
 
-![Taskbar Icon](kwerty.com/GmailNotifierImages/TaskbarIcon.png)
-![You've got mail](kwerty.com/GmailNotifierImages/GotMail.png)
-![Thumbnail previews](kwerty.com/GmailNotifierImages/ThumbPreview.png)
-![JumpList](kwerty.com/GmailNotifierImages/JumpList.png)
+![Taskbar Icon](http://kwerty.com/GmailNotifierImages/TaskbarIcon.png)
+![You've got mail](http://kwerty.com/GmailNotifierImages/GotMail.png)
+![Thumbnail previews](http://kwerty.com/GmailNotifierImages/ThumbPreview.png)
+![JumpList](http://kwerty.com/GmailNotifierImages/JumpList.png)
 
 Try it for yourself :
 
