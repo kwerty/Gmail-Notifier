@@ -1,0 +1,26 @@
+﻿Build started 4/3/2012 8:01:36 PM.
+     1>Project "C:\Users\Timothy\Code\Current\GmailNotifier\GmailNotifierResources\GmailNotifierResources.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GmailNotifierResources.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\GmailNotifierResources.res" GmailNotifierResources.rc 
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GmailNotifierResources.dll.embed.manifest.res" Debug\GmailNotifierResources_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Timothy\Code\Current\GmailNotifier\\GmailNotifierResources\Debug\GmailNotifierResources.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GmailNotifierResources.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Timothy\Code\Current\GmailNotifier\GmailNotifierResources\Debug\GmailNotifierResources.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /NOENTRY /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Timothy\Code\Current\GmailNotifier\\GmailNotifierResources\Debug\GmailNotifierResources.lib" /MACHINE:X86 /DLL Debug\GmailNotifierResources.res
+         Debug\GmailNotifierResources.dll.embed.manifest.res
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GmailNotifierResources.dll.embed.manifest" /manifest Debug\GmailNotifierResources.dll.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GmailNotifierResources.dll.embed.manifest.res" Debug\GmailNotifierResources_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Timothy\Code\Current\GmailNotifier\\GmailNotifierResources\Debug\GmailNotifierResources.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GmailNotifierResources.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Timothy\Code\Current\GmailNotifier\GmailNotifierResources\Debug\GmailNotifierResources.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /NOENTRY /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Timothy\Code\Current\GmailNotifier\\GmailNotifierResources\Debug\GmailNotifierResources.lib" /MACHINE:X86 /DLL Debug\GmailNotifierResources.res
+         Debug\GmailNotifierResources.dll.embed.manifest.res
+         GmailNotifierResources.vcxproj -> C:\Users\Timothy\Code\Current\GmailNotifier\\GmailNotifierResources\Debug\GmailNotifierResources.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\GmailNotifierResources.unsuccessfulbuild".
+         Touching "Debug\GmailNotifierResources.lastbuildstate".
+     1>Done Building Project "C:\Users\Timothy\Code\Current\GmailNotifier\GmailNotifierResources\GmailNotifierResources.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67

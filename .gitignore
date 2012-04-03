@@ -1,0 +1,10 @@
+./GmailNotifier/bin/*
+./GmailNotifier/obj/*
+./GmailNotifierResources/Debug/*
+./Thumbs.db
+./*.suo
+./*.sdf
+./*.opensdf
+./*.filters
+./*.user
+./*.aps
