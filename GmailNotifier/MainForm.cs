@@ -146,6 +146,14 @@ namespace GmailNotifier
 
             Logout();
 
+            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\GmailNotifier");
+
+            using (registry)
+            {
+                registry.DeleteValue("username");
+                registry.DeleteValue("password");
+            }
+
             ShowLoginForm();
         }
 
@@ -236,6 +244,8 @@ namespace GmailNotifier
             {
                 TaskbarManager.Instance.SetProgressValue(0, 0);
                 TaskbarManager.Instance.SetProgressState(TaskbarProgressBarState.NoProgress);
+                timer.Stop();
+                timer.Close();
             };
 
             timer.Start();
@@ -309,7 +319,6 @@ namespace GmailNotifier
         }
 
 
-
         private void Logout() {
 
 
@@ -322,14 +331,6 @@ namespace GmailNotifier
                 _timer.Elapsed -= TimerElapsed;
                 _timer.Stop();
                 _timer.Close();
-            }
-
-            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\GmailNotifier");
-
-            using (registry)
-            {
-                registry.DeleteValue("username");
-                registry.DeleteValue("password");
             }
 
             _gmailClient = null;
