@@ -28,4 +28,4 @@ Try it for yourself
 
 Help test it and find any bugs that may remain.
 
-**[Download Gmail Notifier Beta 1.0](https://github.com/downloads/kwerty/Gmail-Notifier/Gmail-Notifier-Beta-1_0.zip)**
+**[Download Gmail Notifier Beta 1.1](https://github.com/downloads/kwerty/Gmail-Notifier/Gmail-Notifier-Beta-1_1.zip)**
