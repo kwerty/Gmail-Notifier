@@ -26,6 +26,8 @@ Jumplist for common tasks
 Try it for yourself
 --------------------
 
-Help test it and find any bugs that may remain.
+Please help test it and find any bugs that may remain.
+
+[.NET Framework 4.0 is required](http://www.microsoft.com/en-us/download/details.aspx?id=17851)
 
 **[Download Gmail Notifier Beta 1.1](https://github.com/downloads/kwerty/Gmail-Notifier/Gmail-Notifier-Beta-1_1.zip)**
