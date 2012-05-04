@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <Win32Resource>C:\Users\Timothy\Code\Current\GmailNotifier\GmailNotifierResources\Debug\GmailNotifierResources.res</Win32Resource>
+    <Win32Resource>C:\Documents and Settings\Tim.TSL\My Documents\Code\GmailNotifier\GmailNotifierResources\Debug\GmailNotifierResources.res</Win32Resource>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -54,10 +54,8 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />

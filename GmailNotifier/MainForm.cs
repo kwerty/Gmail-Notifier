@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.IO;
-using System.IO.Pipes;
 using System.Threading;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Drawing.Text;
-using System.Media;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Web;
@@ -86,7 +82,7 @@ namespace GmailNotifier
 
             Refresh();
 
-            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\GmailNotifier");
+            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\Kwerty Gmail Notifier");
             string username;
             byte[] passwordEnc;
             int interval;
@@ -146,7 +142,7 @@ namespace GmailNotifier
 
             Logout();
 
-            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\GmailNotifier");
+            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\Kwerty Gmail Notifier");
 
             using (registry)
             {

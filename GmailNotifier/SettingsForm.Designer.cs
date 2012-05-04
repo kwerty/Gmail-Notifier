@@ -227,7 +227,7 @@
             this.MinimizeBox = false;
             this.Name = "SettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Gmail Notifier Settings";
+            this.Text = "Settings";
             ((System.ComponentModel.ISupportInitialize)(this.intervalTracker)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

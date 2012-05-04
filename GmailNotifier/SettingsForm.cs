@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text;
 using System.IO;
 using System.Windows.Forms;
 using Microsoft.Win32;
@@ -33,7 +32,7 @@ namespace GmailNotifier
                 startupChk.Checked = true;
 
 
-            soundCombo.Text = ValueToLabel(_mainForm._newMailSound);
+            soundCombo.Text = ValueToLabel(_currentSound);
 
             ResetFileOpener();
 
@@ -79,10 +78,10 @@ namespace GmailNotifier
                 if (startupChk.Checked)
                     registry.SetValue("GmailNotifier", Application.ExecutablePath);
                 else
-                    registry.DeleteValue("GmailNotifier");
+                    registry.DeleteValue("GmailNotifier", false);
             }
 
-            registry = Registry.CurrentUser.CreateSubKey(@"Software\GmailNotifier");
+            registry = Registry.CurrentUser.CreateSubKey(@"Software\Kwerty Gmail Notifier");
 
             using (registry)
             {
@@ -92,7 +91,7 @@ namespace GmailNotifier
                 if (_currentSound != null)
                     registry.SetValue("newmailsound", _currentSound);
                 else
-                    registry.DeleteValue("newmailsound");
+                    registry.DeleteValue("newmailsound", false);
 
             }
 

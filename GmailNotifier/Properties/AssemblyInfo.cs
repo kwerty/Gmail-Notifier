@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Gmail Notifier Beta")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Kwerty Gmail Notifier")]
+[assembly: AssemblyDescription("Monitors your Gmail inbox and notifies you of new emails.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Gmail Notifier Beta")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCompany("Kwerty")]
+[assembly: AssemblyProduct("Kwerty Gmail Notifier")]
+[assembly: AssemblyCopyright("Copyright (c) 2012 Kwerty")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.0.0")]
-[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyVersion("1.2.0.0")]
+[assembly: AssemblyFileVersion("1.2.0.0")]
