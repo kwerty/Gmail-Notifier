@@ -227,7 +227,7 @@ namespace GmailNotifier
             
         }
 
-        internal void ShowProress()
+        internal void ShowProgress()
         {
 
             // show green in taskbar for 10 seconds
@@ -275,7 +275,7 @@ namespace GmailNotifier
                 //if we got mail, and it's not the first time
                 if (_gmailClient.GotMail && (currResult != CheckEmailResult.None))
                 {
-                    ShowProress();
+                    ShowProgress();
 
                     NewMailSound();
                 }

@@ -18,7 +18,7 @@ namespace GmailNotifier
 
             Owner = _mainForm;
             Size = new Size(200, 119);
-            Location = new Point(Owner.Location.X + 200, Owner.Location.Y + 150);
+            Location = new Point(Owner.Location.X + Size.Width, Owner.Location.Y + Size.Height);
 
             // we're not in designer land anymore toto
             foreach (Panel panel in this.Controls.OfType<Panel>())
