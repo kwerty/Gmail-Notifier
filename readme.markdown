@@ -1,7 +1,7 @@
-Gmail Notifier for Windows 7
+Kwerty Gmail Notifier for Windows 7
 ============================
 
-Gmail Notifier for Windows 7 monitors your Gmail inbox and notifies you of new emails. It takes advantage of the latest Windows 7 UI elements such as the taskbar overlay icon, jump lists and thumbnail previews. It's fully compatable with Google Apps accounts too :)
+Kwerty Gmail Notifier for Windows 7 monitors your Gmail inbox and notifies you of new emails. It takes advantage of the latest Windows 7 UI elements such as the taskbar overlay icon, jump lists and thumbnail previews. It's fully compatable with Google Apps accounts too :)
 
 Here are some screenshots:
 
@@ -26,8 +26,6 @@ Jumplist for common tasks
 Try it for yourself
 --------------------
 
-Please help test it and find any bugs that may remain.
+Download the installer and give it a go
 
-[.NET Framework 4.0 is required](http://www.microsoft.com/en-us/download/details.aspx?id=17851)
-
-**[Download Gmail Notifier Beta 1.1](https://github.com/downloads/kwerty/Gmail-Notifier/Gmail-Notifier-Beta-1_1.zip)**
+**[Download Gmail Notifier 1.2](https://github.com/downloads/kwerty/Gmail-Notifier/Kwerty-Gmail-Notifier-1_2.exe)**
