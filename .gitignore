@@ -1,7 +1,9 @@
-./GmailNotifier/bin/*
-./GmailNotifier/obj/*
-./GmailNotifierResources/Debug/*
-./GmailNotifierInstaller/GmailNotifierInstaller/*
+/GmailNotifier/bin/*
+/GmailNotifier/obj/*
+/GmailNotifierIconGenerator/bin/*
+/GmailNotifierIconGenerator/obj/*
+/GmailNotifierResources/Debug/*
+/GmailNotifierInstaller/GmailNotifierInstaller/*
 Thumbs.db
 *.suo
 *.sdf
