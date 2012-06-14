@@ -2,6 +2,8 @@
 using System.IO;
 using System.IO.Pipes;
 using System.Threading;
+using System.Diagnostics;
+using System.Reflection;
 
 namespace GmailNotifier
 {
@@ -42,7 +44,17 @@ namespace GmailNotifier
 
                 if (_pipeLock == null) return;
 
-                _pipe = new NamedPipeServerStream("GmailNotifier", PipeDirection.In);
+                try
+                {
+                    _pipe = new NamedPipeServerStream("GmailNotifier", PipeDirection.In);
+                }
+                catch (IOException)
+                {
+                    Process.Start("http://kwerty.com/Gmail-Notifier-for-Windows-7/?curr_version=" + Assembly.GetExecutingAssembly().GetName().Version.ToString());
+                    //something needs to be done here to exit the app
+                    throw;
+                    //return;
+                }
 
                 try
                 {
