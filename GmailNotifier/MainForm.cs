@@ -434,13 +434,11 @@ namespace GmailNotifier
 
             JumpListLink openTask = new JumpListLink(_baseUrl, "Open Inbox")
             {
-                Arguments = "inbox",
                 IconReference = new IconReference(Application.ExecutablePath, 2),
             };
 
             JumpListLink composeTask = new JumpListLink(_baseUrl + "#compose", "Compose mail")
             {
-                Arguments = "compose",
                 IconReference = new IconReference(Application.ExecutablePath, 1),
             };
 
