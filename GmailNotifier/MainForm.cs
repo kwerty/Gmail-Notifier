@@ -73,7 +73,7 @@ namespace GmailNotifier
         {
 
 
-            if (DateTime.Today > DateTime.Parse("2013/01/01"))
+            if (DateTime.Today >= DateTime.Parse("2013/06/01"))
             {
                 MessageBox.Show("Please download a newer version of Gmail Notifier at kwerty.com", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 Close();
@@ -432,7 +432,7 @@ namespace GmailNotifier
             _jumpList.ClearAllUserTasks();
             _jumpList.Refresh();
 
-            JumpListLink openTask = new JumpListLink(_baseUrl, "Open Inbox")
+            JumpListLink openTask = new JumpListLink(_baseUrl, "Open inbox")
             {
                 IconReference = new IconReference(Application.ExecutablePath, 2),
             };

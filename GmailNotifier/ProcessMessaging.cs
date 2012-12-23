@@ -44,17 +44,7 @@ namespace GmailNotifier
 
                 if (_pipeLock == null) return;
 
-                try
-                {
-                    _pipe = new NamedPipeServerStream("GmailNotifier", PipeDirection.In);
-                }
-                catch (IOException)
-                {
-                    Process.Start("http://kwerty.com/Gmail-Notifier-for-Windows-7/?curr_version=" + Assembly.GetExecutingAssembly().GetName().Version.ToString());
-                    //something needs to be done here to exit the app
-                    throw;
-                    //return;
-                }
+                _pipe = new NamedPipeServerStream("GmailNotifier", PipeDirection.In);
 
                 try
                 {
