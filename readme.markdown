@@ -28,4 +28,4 @@ Try it for yourself
 
 Download the installer and give it a go
 
-**[Download Gmail Notifier 1.2](https://github.com/downloads/kwerty/Gmail-Notifier/Kwerty-Gmail-Notifier-1_2.exe)**
+**[Kwerty Gmail Notifier homepage](http://kwerty.com/Gmail-Notifier-for-Windows-7/)**
