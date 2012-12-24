@@ -4498,7 +4498,7 @@ QwBEAF8AUgBPAE0AAQBFAHgAcAByAGUAcwBzAA==
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]GmailNotifier.Primary output</td><td/></row>
-		<row><td>ProductCode</td><td>{B4890D16-30E6-4E4F-910A-165C686A4550}</td><td/></row>
+		<row><td>ProductCode</td><td>{C7B2B263-EBC3-495B-A27D-B0659CE3DEF2}</td><td/></row>
 		<row><td>ProductName</td><td>Kwerty Gmail Notifier</td><td/></row>
 		<row><td>ProductVersion</td><td>1.3.0.0</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
@@ -4788,7 +4788,7 @@ QwBEAF8AUgBPAE0AAQBFAHgAcAByAGUAcwBzAA==
 		<col def="s72">ActionProperty</col>
 		<col def="S72">ISDisplayName</col>
 		<row><td>{00000000-0000-0000-0000-000000000000}</td><td>***ALL_VERSIONS***</td><td></td><td></td><td>2</td><td/><td>ISFOUNDNEWERPRODUCTVERSION</td><td>ISPreventDowngrade</td></row>
-		<row><td>{1B217D92-D121-4319-8628-D9E5945B469D}</td><td>1.2.0.0</td><td>1.2.0.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP1</td><td>FromOldVersion</td></row>
+		<row><td>{1B217D92-D121-4319-8628-D9E5945B469D}</td><td>1.2.0.0</td><td>1.2.9.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP1</td><td>FromOldVersion</td></row>
 	</table>
 
 	<table name="Verb">
