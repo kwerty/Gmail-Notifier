@@ -26,6 +26,6 @@ Jumplist for common tasks
 Try it for yourself
 --------------------
 
-Download the installer and give it a go
+Head over to the website to download Kwerty Gmail Notifier
 
 **[Kwerty Gmail Notifier homepage](http://kwerty.com/Gmail-Notifier-for-Windows-7/)**
