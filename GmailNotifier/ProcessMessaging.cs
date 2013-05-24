@@ -91,10 +91,19 @@ namespace GmailNotifier
             using (pipe)
             {
 
-                pipe.Connect(5000);
+                try
+                {
+                    pipe.Connect(5000);
 
-                using (StreamWriter stream = new StreamWriter(pipe))
-                    stream.WriteLine(message);
+                    using (StreamWriter stream = new StreamWriter(pipe))
+                        stream.WriteLine(message);
+
+                }
+                catch (TimeoutException)
+                {
+                }
+
+
 
             }
 
