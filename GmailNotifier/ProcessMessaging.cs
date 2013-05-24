@@ -44,7 +44,7 @@ namespace GmailNotifier
 
                 if (_pipeLock == null) return;
 
-                _pipe = new NamedPipeServerStream("GmailNotifier", PipeDirection.In);
+                _pipe = new NamedPipeServerStream("KwertyGmailNotifier", PipeDirection.In);
 
                 try
                 {
@@ -86,7 +86,7 @@ namespace GmailNotifier
         public static void SendMessage(string message)
         {
 
-            NamedPipeClientStream pipe = new NamedPipeClientStream(".", "GmailNotifier", PipeDirection.Out);
+            NamedPipeClientStream pipe = new NamedPipeClientStream(".", "KwertyGmailNotifier", PipeDirection.Out);
 
             using (pipe)
             {

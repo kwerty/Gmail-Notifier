@@ -73,12 +73,8 @@ namespace GmailNotifier
         {
 
 
-            if (DateTime.Today >= DateTime.Parse("2013/06/01"))
-            {
-                MessageBox.Show("Please download a newer version of Gmail Notifier at kwerty.com", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                Close();
-                return;
-            }
+            if (DateTime.Today >= DateTime.Parse("2014/01/01"))
+                MessageBox.Show("Please download a newer version of Gmail Notifier at kwerty.com", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             Refresh();
 
@@ -127,6 +123,9 @@ namespace GmailNotifier
 
             if (e.Message == "refresh")
                 RefreshMail();
+
+            else if (e.Message == "inbox")
+                Process.Start(_baseUrl);
 
             else if (e.Message == "settings")
                 Invoke(new Action(ShowSettingsForm));
@@ -481,6 +480,15 @@ namespace GmailNotifier
             _thumb = new TabbedThumbnail(this.Handle, _thumbForm);
             _thumb.Title = _gmailClient.Username;
             _thumb.SetWindowIcon((Icon)this.Icon.Clone());
+
+            _thumb.TabbedThumbnailClosed += (sender, e) =>
+            {
+                //ideally what i would like to here is cancel the close event
+                //unfortunately it appears there is a bug in the WindowsAPICodePack which is not receiving any attention from Microsoft
+                //the next best alternative is just to close the entire application, otherwise it will crash next time we try to update the thumbnail preview
+                Close();
+                
+            };
 
             _thumbForm.Show();
             _thumbForm.Render();

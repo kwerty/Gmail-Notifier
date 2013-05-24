@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace GmailNotifier
 {
@@ -18,10 +19,23 @@ namespace GmailNotifier
                 return;
             }
 
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            bool hasMutex;
 
+            using (Mutex mutex = new Mutex(false, "KwertyGmailNotifier", out hasMutex))
+            {
+
+                if (!hasMutex)
+                {
+                    ProcessMessaging.SendMessage("inbox");
+                    Environment.Exit(0);
+                    return;
+                }
+
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new MainForm());
+            }
+            
         }
 
 
