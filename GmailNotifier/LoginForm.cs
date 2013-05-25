@@ -45,7 +45,7 @@ namespace GmailNotifier
 
             byte[] pass = System.Security.Cryptography.ProtectedData.Protect(UTF8Encoding.UTF8.GetBytes(passwordBox.Text), null, System.Security.Cryptography.DataProtectionScope.CurrentUser);
 
-            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\Kwerty Gmail Notifier");
+            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\KwertyGmailNotifier");
 
             using (registry)
             {

@@ -3,7 +3,6 @@
 /GmailNotifierIconGenerator/bin/*
 /GmailNotifierIconGenerator/obj/*
 /GmailNotifierResources/Debug/*
-/GmailNotifierInstaller/GmailNotifierInstaller/*
 Thumbs.db
 *.suo
 *.sdf

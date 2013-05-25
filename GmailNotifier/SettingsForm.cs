@@ -81,7 +81,7 @@ namespace GmailNotifier
                     registry.DeleteValue("GmailNotifier", false);
             }
 
-            registry = Registry.CurrentUser.CreateSubKey(@"Software\Kwerty Gmail Notifier");
+            registry = Registry.CurrentUser.CreateSubKey(@"Software\KwertyGmailNotifier");
 
             using (registry)
             {

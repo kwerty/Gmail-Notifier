@@ -74,11 +74,11 @@ namespace GmailNotifier
 
 
             if (DateTime.Today >= DateTime.Parse("2014/01/01"))
-                MessageBox.Show("Please download a newer version of Gmail Notifier at kwerty.com", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please download a newer version of Gmail Notifier at http://kwerty.com", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             Refresh();
 
-            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\Kwerty Gmail Notifier");
+            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\KwertyGmailNotifier");
             string username;
             byte[] passwordEnc;
             int interval;
@@ -141,7 +141,7 @@ namespace GmailNotifier
 
             Logout();
 
-            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\Kwerty Gmail Notifier");
+            RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\KwertyGmailNotifier");
 
             using (registry)
             {
