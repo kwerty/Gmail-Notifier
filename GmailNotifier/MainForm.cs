@@ -73,8 +73,8 @@ namespace GmailNotifier
         {
 
 
-            if (DateTime.Today >= DateTime.Parse("2014/01/01"))
-                MessageBox.Show("Please download a newer version of Gmail Notifier at http://kwerty.com", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            if (DateTime.Today >= DateTime.Parse("2015/01/01"))
+                MessageBox.Show("Please download a newer version of Kwerty Gmail Notifier at http://kwerty.com", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             Refresh();
 
