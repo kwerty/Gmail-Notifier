@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Kwerty")]
 [assembly: AssemblyProduct("Kwerty Gmail Notifier")]
-[assembly: AssemblyCopyright("Copyright (c) 2013 Kwerty")]
+[assembly: AssemblyCopyright("Copyright (c) 2014 Kwerty")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
