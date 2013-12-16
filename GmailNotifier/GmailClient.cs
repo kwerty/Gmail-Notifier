@@ -37,6 +37,10 @@ namespace GmailNotifier
         public CheckEmailResult CheckEmail()
         {
 
+
+            GotMail = false;
+            Updated = false;
+            
             XmlUrlResolver resolver = new XmlUrlResolver();
             XmlReaderSettings settings = new XmlReaderSettings();
             resolver.Credentials = new NetworkCredential(Username, Password);
@@ -62,8 +66,6 @@ namespace GmailNotifier
             XDocument doc = XDocument.Load(reader);
 
             XNamespace n = doc.Root.Attribute("xmlns").Value;
-
-            GotMail = false;
 
             DateTime modified = DateTime.Parse(doc.Root.Element(n + "modified").Value);
 
