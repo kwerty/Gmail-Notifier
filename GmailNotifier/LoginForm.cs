@@ -39,7 +39,7 @@ namespace GmailNotifier
             if (gmailClient.CheckEmail() != CheckEmailResult.Success)
             {
                 mainPanel.Enabled = true;
-                ErrorBox("Could not login");
+                ErrorBox("Could not login\r\n\r\n" + gmailClient.LastError.Message);
                 return;
             }
 

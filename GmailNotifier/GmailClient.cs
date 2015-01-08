@@ -34,6 +34,8 @@ namespace GmailNotifier
 
         public CheckEmailResult LastResult { get; set; }
 
+        public Exception LastError { get; set; }
+
         public CheckEmailResult CheckEmail()
         {
 
@@ -54,6 +56,8 @@ namespace GmailNotifier
             }
             catch (WebException ex)
             {
+
+                LastError = ex;
 
                 if ((ex.Response != null) &&
                     (((HttpWebResponse)ex.Response).StatusCode == HttpStatusCode.Unauthorized))
