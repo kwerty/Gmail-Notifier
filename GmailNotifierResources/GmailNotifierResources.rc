@@ -130,9 +130,9 @@ IDI_ICON6               ICON                    "Resources\\Settings.ico"
 
 VS_VERSION_INFO VERSIONINFO
 
- FILEVERSION 1,4,2,0
+ FILEVERSION 1,5,0,0
 
- PRODUCTVERSION 1,4,2,0
+ PRODUCTVERSION 1,5,0,0
 
  FILEFLAGSMASK 0x3fL
 
@@ -166,13 +166,13 @@ BEGIN
 
             VALUE "FileDescription", "Kwerty Gmail Notifier"
 
-            VALUE "FileVersion", "1.4.2.0"
+            VALUE "FileVersion", "1.5.0.0"
 
-            VALUE "LegalCopyright", "Copyright (c) 2014 Kwerty"
+            VALUE "LegalCopyright", "Copyright (c) 2015 Kwerty"
 
             VALUE "ProductName", "Kwerty Gmail Notifier"
 
-            VALUE "ProductVersion", "1.4.2.0"
+            VALUE "ProductVersion", "1.5.0.0"
 
         END
 

@@ -73,9 +73,6 @@ namespace GmailNotifier
         {
 
 
-            if (DateTime.Today >= DateTime.Parse("2015/01/01"))
-                MessageBox.Show("Please download a newer version of Kwerty Gmail Notifier at http://kwerty.com", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
             Refresh();
 
             RegistryKey registry = Registry.CurrentUser.CreateSubKey(@"Software\KwertyGmailNotifier");

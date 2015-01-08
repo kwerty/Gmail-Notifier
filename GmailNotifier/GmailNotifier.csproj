@@ -50,7 +50,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <Win32Resource>C:\Users\Timothy\Code\Gmail-Notifier\GmailNotifierResources\Debug\GmailNotifierResources.res</Win32Resource>
+    <Win32Resource>D:\Dev\GmailNotifier\GmailNotifierResources\Debug\GmailNotifierResources.res</Win32Resource>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
